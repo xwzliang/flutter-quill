@@ -96,7 +96,7 @@ class _ArrowIndicatedButtonListState extends State<ArrowIndicatedButtonList>
             SliverFillRemaining(
               hasScrollBody: false,
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: widget.buttons,
               ),
             )
